@@ -1,0 +1,156 @@
+/* commun design for all pages */
+body{
+	background-color: black;
+	font-family: sans-serif;
+	color: white;
+}
+
+h1{
+	font-size: 75px;
+	text-transform: capitalize;
+	font-variant: small-caps;
+	text-align: left;
+}
+/*start header*/
+	/* size & location logo */
+.logo{
+	  display: inline-block; /*inline display inside <header/> diff between display & float ? */
+      margin-top: 75px ;
+      margin-left: 90px;
+}
+
+.namenav{
+	    background-color: none;
+		display: inline-block;
+		float: right; 
+		margin-right: 100px;
+}
+
+.menu a {
+	background-color: #C10319;
+	text-decoration-line: none; 
+	text-transform: uppercase;
+	color: white;
+	font-size: 35px;
+	margin-right: 3px;
+	text-align: center;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+nav .menu:hover {       /* texte rouge foncé quand souris passe dessus*/
+				color: #a50013; 
+}
+a.menu{
+	margin-right: 5px;
+	margin-left: 5px;
+
+}
+/* end header*/
+
+/*start global design for all pages in body*/
+/* start the rectangle centered */
+
+.divrectangle{
+	background-color: none;
+	width: 1080px;
+    height: 400px;
+    margin-top: 400px;
+    margin: 0 auto;
+}
+
+.leftbloc{
+    background-color: none;
+	width: 540px;
+	height: 400px;
+	display: inline-block;
+	float: left;
+}
+
+.end{
+	display: inline-block;
+}
+
+/*end global design for all pages in body*/
+
+/*start text layout homepage*/
+.rightblocintro{
+	background-color: none;
+	width: 640px;
+	height: 400px;
+	display: inline-block;
+	float: right;
+}
+
+.texteintro{
+	text-align: justify;
+	padding-right: 20px ;
+}
+/*end text layout homepage*/
+
+/*start cv layout cv*/
+.cvpdf{
+backgroundcolor: none;
+	width: 1080px;
+	height: 1080px;
+margin: 0 auto;
+margin-top: 100px;
+}
+/*end cv layout cv*/
+
+/*start contact layout*/
+.followme{
+text-transform: uppercase;
+font-size: 20px;
+text-align: center;
+margin-top: 0px;
+}
+.contactme{
+	text-transform: uppercase;
+	font-size: 20px;
+	text-align: center;
+}	
+.links{
+	text-align:center;
+}
+/*end contact layout*/
+
+/*---------------------------------------------------------------------------------------------------------*/
+/* CSS pour le formulaire--------------------
+.formcontact{
+	margin-top: 60px;
+}
+
+.formfuck{
+	background-color: green;
+	width: 270px;
+	height: 200px;
+	display: inline-block;
+	text-align: center;
+	margin: 0 auto; /* pour centrer le bloc formfuck
+}
+.cood{
+	width: 100px;
+	heigh: 400px;
+	display: inline-block;
+	float: left;
+	padding-left: 30px;
+	text-align: right;
+}
+/* start boxes size 
+input{
+	width: 250px;
+	height: 35px;
+
+}
+textarea{
+	width: 250px;
+	height: 35px;
+}
+.button{
+	background-color: red;
+	width: 250px;
+	height: 35px;
+}
+-----------------------------------------------------------*/
+
